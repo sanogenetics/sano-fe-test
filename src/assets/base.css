@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+:root {
+  --vt-sano-light-pink: #fff5f3;
+  --vt-sano-pink: #F7D2D2;
+  --vt-sano-light-pink-dark: #ffdfd7;
+  --vt-sano-burgundy: #54223B;
+  --vt-sano-red-orange: #F75338;
+  --vt-sano-green: #4DB7A4;
+  --vt-sano-blue: #433EA5;
+
+  --vt-white: #ffffff;
+  --vt-black: #181818;
+}
+
+/* semantic color variables for this project */
+ :root {
+  --color-background: var(--vt-sano-light-pink);
+  --color-text: var(--vt-sano-burgundy);
+  --color-link: var(--vt-sano-red-orange);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body, #app {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* layout */
+.scontainer {
+  width: 100% !important;
+}
+@media (min-width: 640px) {
+  .scontainer {
+    max-width: 640px !important;
+  }
+}
+@media (min-width: 768px) {
+  .scontainer {
+    max-width: 768px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .scontainer {
+    max-width: 1024px !important;
+  }
+}
+
+/* text styling*/
+.text-sano-red-orange {
+  color: var(--vt-sano-red-orange);
+}
+
+/* border styling*/
+.border-sano-red-orange {
+  border-color: var(--vt-sano-red-orange);
+}
+
+
+
+/* SVG styling */
+.sano-svg-red-orange {
+  fill: #f75338;
+  stroke: #f75338;
+}
+.sano-use-svg,
+.sano-use-svg svg {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+
+/* element styling*/
+/* Links */
+#app a:not(nav a) {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+/* Code */
+#app pre.endpoint {
+  /* display:inline-block; */
+  overflow: auto;
+  background-color: var(--vt-sano-light-pink-dark);
+  padding: 0 0.3em
+}
