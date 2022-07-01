@@ -33,7 +33,7 @@ Step 4: When you have completed the test, create a pull request (you will be sen
 Step 5: Please create a Loom video to explain:
   -  How you approached the test.
   -  Where you took a pause to make a decision about any task. Why did you make that decision?
-  -  If you struggled with any parts of the project, what were they?
+  -  If you struggled with any parts of the test, what were they?
   -  If you had more time, what would you improve or change?
 
 Step 6: Send us an email with the following:
