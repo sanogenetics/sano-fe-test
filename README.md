@@ -2,6 +2,8 @@
 
 # Sano Genetics Frontend Engineer task
 
+⚠️ Please, **do not fork this repository**.
+
 The goal of this task is to introduce you to some of the technologies that we use at Sano, and to give you an experience about what it would be like to have the responsibilities of the role. 
 
 In this test, you will display a list of studies and be able to leave/join any study. The list of studies should look beautiful, be accessible and mobile friendly.
@@ -28,7 +30,7 @@ Step 2: Make a new branch where you will add your work. This will allow us to ea
 
 Step 3: Instructions to complete the task list are on the home page when you run the project.
 
-Step 4: When you have completed the test, create a pull request (you will be sending us this link).
+Step 4: When you have completed the test, create a pull request for us to review.
 
 Step 5: Please create a Loom video to explain:
   -  How you approached the test.
@@ -36,9 +38,13 @@ Step 5: Please create a Loom video to explain:
   -  If you struggled with any parts of the test, what were they?
   -  If you had more time, what would you improve or change?
 
-Step 6: Send us an email with the following:
-- Link to your pull request
-- Loom video link
+# Submitting the test
+
+- Please link to your Loom video as the pull request you want us to review in the section below.
 - Add `sano-review` as a contributor to your private repo and confirm that you have done this.
 
 Thank you and we hope you have fun with the test!
+
+# Solution
+
+This part is for you! Please drop your loom video link in here as well as anything else you'd like to add/link to.
